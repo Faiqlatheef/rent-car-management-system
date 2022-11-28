@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06C6FBC5-FD4A-4843-BF6A-803077DE951C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>project_Ayubo_1</RootNamespace>
+    <AssemblyName>project Ayubo 1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="campany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="campany.Designer.cs">
+      <DependentUpon>campany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer.Designer.cs">
+      <DependentUpon>customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver.Designer.cs">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hire Other Charge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hire Other Charge.Designer.cs">
+      <DependentUpon>Hire Other Charge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hire.Designer.cs">
+      <DependentUpon>Hire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hire2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hire2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HirePacakges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HirePacakges.Designer.cs">
+      <DependentUpon>HirePacakges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HirePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HirePayment.Designer.cs">
+      <DependentUpon>HirePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myCommandClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rates.Designer.cs">
+      <DependentUpon>Rates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rent Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rent Type.Designer.cs">
+      <DependentUpon>Rent Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rent.Designer.cs">
+      <DependentUpon>Rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RentPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentPayment.Designer.cs">
+      <DependentUpon>RentPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tour Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tour Type.Designer.cs">
+      <DependentUpon>Tour Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vechicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vechicle.Designer.cs">
+      <DependentUpon>vechicle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="campany.resx">
+      <DependentUpon>campany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver.resx">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hire Other Charge.resx">
+      <DependentUpon>Hire Other Charge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hire.resx">
+      <DependentUpon>Hire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HirePacakges.resx">
+      <DependentUpon>HirePacakges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HirePayment.resx">
+      <DependentUpon>HirePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rates.resx">
+      <DependentUpon>Rates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rent Type.resx">
+      <DependentUpon>Rent Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rent.resx">
+      <DependentUpon>Rent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RentPayment.resx">
+      <DependentUpon>RentPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tour Type.resx">
+      <DependentUpon>Tour Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vechicle.resx">
+      <DependentUpon>vechicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Hire2DataSet.xsc">
+      <DependentUpon>Hire2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Hire2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hire2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hire2DataSet.xss">
+      <DependentUpon>Hire2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-for-car-rental-and-sales-vector-25468600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-for-car-rental-and-sales-vector-25468598.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
